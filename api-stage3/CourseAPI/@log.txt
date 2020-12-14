@@ -4335,3 +4335,105 @@ FROM `ItemList` AS `i`
 2020-12-14 17:03:51.751 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.ItemList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
 2020-12-14 17:03:51.757 +08:00 [INF] Executed action CourseAPI.Controllers.ItemListController.GetAll (CourseAPI) in 36.945ms
 2020-12-14 17:03:51.758 +08:00 [INF] Request finished in 49.183800000000005ms 200 application/json; charset=utf-8
+2020-12-14 17:16:51.666 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/tasklist  
+2020-12-14 17:16:51.667 +08:00 [INF] Route matched with {action = "GetAll", controller = "TaskList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.TaskListController (CourseAPI).
+2020-12-14 17:16:51.670 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:16:51.675 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`idTask`, `t`.`taskDetails`, `t`.`taskName`
+FROM `TaskList` AS `t`
+2020-12-14 17:16:51.682 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.TaskList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-14 17:16:51.684 +08:00 [INF] Executed action CourseAPI.Controllers.TaskListController.GetAll (CourseAPI) in 14.5145ms
+2020-12-14 17:16:51.687 +08:00 [INF] Request finished in 21.2466ms 200 application/json; charset=utf-8
+2020-12-14 17:16:54.401 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/itemlist  
+2020-12-14 17:16:54.402 +08:00 [INF] Route matched with {action = "GetAll", controller = "ItemList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.ItemListController (CourseAPI).
+2020-12-14 17:16:54.405 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:16:54.408 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `i`.`idItem`, `i`.`idTask`, `i`.`itemDetails`, `i`.`itemName`, `i`.`itemStatus`
+FROM `ItemList` AS `i`
+2020-12-14 17:16:54.413 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.ItemList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-14 17:16:54.414 +08:00 [INF] Executed action CourseAPI.Controllers.ItemListController.GetAll (CourseAPI) in 10.0006ms
+2020-12-14 17:16:54.416 +08:00 [INF] Request finished in 15.3292ms 200 application/json; charset=utf-8
+2020-12-14 17:17:11.249 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/tasklist  
+2020-12-14 17:17:11.265 +08:00 [INF] Route matched with {action = "GetAll", controller = "TaskList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.TaskListController (CourseAPI).
+2020-12-14 17:17:11.274 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:17:11.281 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`idTask`, `t`.`taskDetails`, `t`.`taskName`
+FROM `TaskList` AS `t`
+2020-12-14 17:17:11.284 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.TaskList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-14 17:17:11.286 +08:00 [INF] Executed action CourseAPI.Controllers.TaskListController.GetAll (CourseAPI) in 12.5395ms
+2020-12-14 17:17:11.287 +08:00 [INF] Request finished in 37.823100000000004ms 200 application/json; charset=utf-8
+2020-12-14 17:17:13.524 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/itemlist  
+2020-12-14 17:17:13.524 +08:00 [INF] Route matched with {action = "GetAll", controller = "ItemList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.ItemListController (CourseAPI).
+2020-12-14 17:17:13.529 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:17:13.531 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `i`.`idItem`, `i`.`idTask`, `i`.`itemDetails`, `i`.`itemName`, `i`.`itemStatus`
+FROM `ItemList` AS `i`
+2020-12-14 17:17:13.535 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.ItemList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-14 17:17:13.537 +08:00 [INF] Executed action CourseAPI.Controllers.ItemListController.GetAll (CourseAPI) in 10.426300000000001ms
+2020-12-14 17:17:13.538 +08:00 [INF] Request finished in 14.5243ms 200 application/json; charset=utf-8
+2020-12-14 17:17:17.070 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/tasklist  
+2020-12-14 17:17:17.072 +08:00 [INF] Route matched with {action = "GetAll", controller = "TaskList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.TaskListController (CourseAPI).
+2020-12-14 17:17:17.074 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:17:17.077 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`idTask`, `t`.`taskDetails`, `t`.`taskName`
+FROM `TaskList` AS `t`
+2020-12-14 17:17:17.079 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.TaskList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-14 17:17:17.080 +08:00 [INF] Executed action CourseAPI.Controllers.TaskListController.GetAll (CourseAPI) in 6.2762ms
+2020-12-14 17:17:17.083 +08:00 [INF] Request finished in 12.972900000000001ms 200 application/json; charset=utf-8
+2020-12-14 17:17:40.135 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/tasklist  
+2020-12-14 17:17:40.136 +08:00 [INF] Route matched with {action = "GetAll", controller = "TaskList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.TaskListController (CourseAPI).
+2020-12-14 17:17:40.139 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:17:40.144 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`idTask`, `t`.`taskDetails`, `t`.`taskName`
+FROM `TaskList` AS `t`
+2020-12-14 17:17:40.149 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.TaskList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-14 17:17:40.151 +08:00 [INF] Executed action CourseAPI.Controllers.TaskListController.GetAll (CourseAPI) in 11.759ms
+2020-12-14 17:17:40.152 +08:00 [INF] Request finished in 16.8722ms 200 application/json; charset=utf-8
+2020-12-14 17:17:44.591 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/itemlist  
+2020-12-14 17:17:44.592 +08:00 [INF] Route matched with {action = "GetAll", controller = "ItemList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.ItemListController (CourseAPI).
+2020-12-14 17:17:44.594 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:17:44.596 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `i`.`idItem`, `i`.`idTask`, `i`.`itemDetails`, `i`.`itemName`, `i`.`itemStatus`
+FROM `ItemList` AS `i`
+2020-12-14 17:17:44.598 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.ItemList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-14 17:17:44.602 +08:00 [INF] Executed action CourseAPI.Controllers.ItemListController.GetAll (CourseAPI) in 7.9956000000000005ms
+2020-12-14 17:17:44.604 +08:00 [INF] Request finished in 12.4909ms 200 application/json; charset=utf-8
+2020-12-14 17:17:48.960 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/itemlist application/json 101
+2020-12-14 17:17:48.965 +08:00 [INF] Route matched with {action = "CreateC", controller = "ItemList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateC(Domain.Models.ItemList) on controller CourseAPI.Controllers.ItemListController (CourseAPI).
+2020-12-14 17:17:48.980 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:17:48.994 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `ItemList` (`idTask`, `itemDetails`, `itemName`, `itemStatus`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `idItem`
+FROM `ItemList`
+WHERE ROW_COUNT() = 1 AND `idItem` = LAST_INSERT_ID();
+2020-12-14 17:17:49.001 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-14 17:17:49.002 +08:00 [INF] Executed action CourseAPI.Controllers.ItemListController.CreateC (CourseAPI) in 34.5707ms
+2020-12-14 17:17:49.004 +08:00 [INF] Request finished in 43.2887ms 200 text/plain; charset=utf-8
+2020-12-14 17:17:49.784 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/itemlist  
+2020-12-14 17:17:49.785 +08:00 [INF] Route matched with {action = "GetAll", controller = "ItemList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.ItemListController (CourseAPI).
+2020-12-14 17:17:49.788 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:17:49.790 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `i`.`idItem`, `i`.`idTask`, `i`.`itemDetails`, `i`.`itemName`, `i`.`itemStatus`
+FROM `ItemList` AS `i`
+2020-12-14 17:17:49.792 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.ItemList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-14 17:17:49.793 +08:00 [INF] Executed action CourseAPI.Controllers.ItemListController.GetAll (CourseAPI) in 5.4253ms
+2020-12-14 17:17:49.796 +08:00 [INF] Request finished in 11.9342ms 200 application/json; charset=utf-8
+2020-12-14 17:17:50.943 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/tasklist  
+2020-12-14 17:17:50.944 +08:00 [INF] Route matched with {action = "GetAll", controller = "TaskList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.TaskListController (CourseAPI).
+2020-12-14 17:17:50.946 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:17:50.950 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`idTask`, `t`.`taskDetails`, `t`.`taskName`
+FROM `TaskList` AS `t`
+2020-12-14 17:17:50.954 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.TaskList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-14 17:17:50.956 +08:00 [INF] Executed action CourseAPI.Controllers.TaskListController.GetAll (CourseAPI) in 9.6251ms
+2020-12-14 17:17:50.957 +08:00 [INF] Request finished in 13.741900000000001ms 200 application/json; charset=utf-8
+2020-12-14 17:18:33.585 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/tasklist  
+2020-12-14 17:18:33.586 +08:00 [INF] Route matched with {action = "GetAll", controller = "TaskList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.TaskListController (CourseAPI).
+2020-12-14 17:18:33.589 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-14 17:18:33.593 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`idTask`, `t`.`taskDetails`, `t`.`taskName`
+FROM `TaskList` AS `t`
+2020-12-14 17:18:33.597 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.TaskList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-14 17:18:33.600 +08:00 [INF] Executed action CourseAPI.Controllers.TaskListController.GetAll (CourseAPI) in 11.7702ms
+2020-12-14 17:18:33.604 +08:00 [INF] Request finished in 18.5987ms 200 application/json; charset=utf-8
