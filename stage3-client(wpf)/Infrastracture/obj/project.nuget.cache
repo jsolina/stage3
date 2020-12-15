@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LcVf3ui9nyJkLsbMwhnj74JZEkYQrfXsUSnKQeeRNO2bjwDlEy7DXrnCTTbiA+slGJRU1N3/Cq76UC34J8EQyQ==",
+  "dgSpecHash": "zj3LT7x+vnrufLyUNtaEA1aM6FgjODJC9jIrtbmTJPloJGTHgJ4qXGvqrELWIaCX+uXm/7HDQjHFtXkiWu8MZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\wpf\\Infrastracture\\Infrastracture.csproj",
+  "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-client(wpf)\\Infrastracture\\Infrastracture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",

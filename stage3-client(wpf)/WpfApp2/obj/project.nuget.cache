@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H1opWzqItHSGQrKkHB2MOGLwUi4xJN4YJ6Ktsbv/eKceli3jtAFcYN6Hcz+hrknTDxt7WnJmKOVAmSMaaCNo4A==",
+  "dgSpecHash": "UjZG4RwLxPKbUnQM3EnCgQU5DhVtEvxxnBIkaBQqWl+UfRWGBtfiUtw1s9lmP9bK5cBqGFmVOyqEoYqbjMtbBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\wpf\\WpfApp2\\WpfApp2.csproj",
+  "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-client(wpf)\\WpfApp2\\WpfApp2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.0\\microsoft.data.sqlite.core.5.0.0.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

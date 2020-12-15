@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "84XPmHAqsJeiM6a95VOc1mbinxt8gFyE9AQyB2Kon9Dxey7DRMcHeBaAIp/qRlpDpMGiA5hzYZqjy1I4Ongb0A==",
+  "dgSpecHash": "68wh6SbgRv2wiwLxojZLpQBAKsw4GP56MkkHC/p5PWKH1mt6tqY224gCnWWwMkY3iFlUmQ2Ods7gIkxPDiCeFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\wpf\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-client(wpf)\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
