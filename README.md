@@ -8,10 +8,11 @@
 
 *database credential*
 
-database name: todo
+database name: "todo"
+
 database tables:
-    1. tasklist
-    2. itemlist
+1. tasklist
+2. itemlist
 
 *research, concept and tools used*
 
