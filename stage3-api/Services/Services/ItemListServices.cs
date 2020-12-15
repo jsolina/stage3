@@ -1,10 +1,8 @@
-﻿using System;
+﻿using Domain.Contracts;
+using Domain.Models;
+using Infrastracture.Contracts;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using Domain.Models;
-using Domain.Contracts;
-using Infrastracture.Contracts;
 
 namespace Services.Application
 {
