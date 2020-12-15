@@ -42,7 +42,7 @@ namespace WpfApp2.View
                 itemModel = _itemModel;
                 name.Text = itemModel.ItemName;
                 desc.Text = itemModel.ItemDetails;
-                status.Text = itemModel.Status;
+                status.Text = itemModel.ItemStatus;
             }
         }
 
@@ -50,21 +50,18 @@ namespace WpfApp2.View
         {
             itemModel.ItemName = name.Text;
             itemModel.ItemDetails = desc.Text;
-            itemModel.Status = status.Text;
+            itemModel.ItemStatus = status.Text;
             if (updateOrAdd == "Add")
             {
                 itemModel.IdTask = taskListModel.idTask;
                 item.Create(itemModel);
                 MessageBox.Show("Item has been Added", "Added");
             }
-            /*
             if (updateOrAdd == "Update")
             {
-                dbContext.Update(selectedRowItem);
-                dbContext.SaveChanges();
+                item.Update(itemModel);
                 MessageBox.Show("Item has been Updated", "Updated");
             }
-            */
             this.Close();
         }
 

@@ -22,7 +22,7 @@
                 <DataGridTextColumn Header="Id" Binding="{Binding IdItem}"/>
                 <DataGridTextColumn Header="Item Name" Binding="{Binding ItemName}"/>
                 <DataGridTextColumn Header="Item Details" Binding="{Binding ItemDetails}"/>
-                <DataGridTextColumn Header="Status" Binding="{Binding Status}"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding ItemStatus}"/>
 
                 <DataGridTemplateColumn Header="Update">
                     <DataGridTemplateColumn.CellTemplate>

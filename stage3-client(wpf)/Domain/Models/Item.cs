@@ -14,6 +14,6 @@ namespace Domain.Models
         public int IdTask { get; set; }
         public string ItemName { get; set; }
         public string ItemDetails { get; set; }
-        public string Status { get; set; }
+        public string ItemStatus { get; set; }
     }
 }
