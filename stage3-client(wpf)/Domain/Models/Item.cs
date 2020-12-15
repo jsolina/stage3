@@ -9,8 +9,8 @@ namespace Domain.Models
     public class Item
     {
         [Key]
-        [Column("Id")]
-        public int Id { get; set; }
+        [Column("IdItem")]
+        public int IdItem { get; set; }
         public int IdTask { get; set; }
         public string ItemName { get; set; }
         public string ItemDetails { get; set; }

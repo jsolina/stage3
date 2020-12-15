@@ -19,7 +19,7 @@
         <DataGrid Grid.Row="1" AutoGenerateColumns="False" Margin="5,37,5,160" x:Name="ItemDG" IsReadOnly="True" Grid.RowSpan="2" SelectionMode="Single">
 
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Id" Binding="{Binding IdItem}"/>
                 <DataGridTextColumn Header="Item Name" Binding="{Binding ItemName}"/>
                 <DataGridTextColumn Header="Item Details" Binding="{Binding ItemDetails}"/>
                 <DataGridTextColumn Header="Status" Binding="{Binding Status}"/>

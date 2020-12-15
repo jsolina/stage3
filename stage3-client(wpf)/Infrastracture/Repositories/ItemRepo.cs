@@ -24,7 +24,7 @@ namespace Infrastracture.Repositories
 
         public IEnumerable<Item> FindByFK(int id)
         {
-            return rClient.getRequest().OrderByDescending(i => i.Id).Where(d => d.IdTask.Equals(id)).ToList();
+            return rClient.getRequest().OrderByDescending(i => i.IdItem).Where(d => d.IdTask.Equals(id)).ToList();
         }
 
         public Item FindById(int id)
