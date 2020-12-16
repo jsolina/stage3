@@ -10,7 +10,7 @@ namespace Infrastracture.Repositories
 {
     public class ItemRepo : IItem
     {
-        RestItem rClient = new RestItem();
+        RsharpItem rClient = new RsharpItem();
 
         public void Create(Item entity)
         {

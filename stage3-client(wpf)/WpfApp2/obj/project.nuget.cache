@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UjZG4RwLxPKbUnQM3EnCgQU5DhVtEvxxnBIkaBQqWl+UfRWGBtfiUtw1s9lmP9bK5cBqGFmVOyqEoYqbjMtbBw==",
+  "dgSpecHash": "CuO/YFepEGzp1v4pI5WNUGbbjLicETXSnE9LTTEGz8L7GbyFtKLopecH6jq6IVv6H8uthwpaU/EiIkCmfxyJhw==",
   "success": true,
   "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-client(wpf)\\WpfApp2\\WpfApp2.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\63926\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",

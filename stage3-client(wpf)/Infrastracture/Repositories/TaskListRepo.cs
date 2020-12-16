@@ -8,7 +8,7 @@ namespace Infrastracture.Repositories
 {
     public class TaskListRepo : ITaskList
     {
-        RestTaskList rClient = new RestTaskList();
+        RsharpTaskList rClient = new RsharpTaskList();
 
         public void Create(TaskList entity)
         {
@@ -28,7 +28,6 @@ namespace Infrastracture.Repositories
         public TaskList FindById(int id)
         {
             throw new NotImplementedException();
-            //return _dbcontext.TaskLists.Where(d => d.Id.Equals(id)).FirstOrDefault();
         }
 
         public void Remove(TaskList entity)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zj3LT7x+vnrufLyUNtaEA1aM6FgjODJC9jIrtbmTJPloJGTHgJ4qXGvqrELWIaCX+uXm/7HDQjHFtXkiWu8MZQ==",
+  "dgSpecHash": "rKp5nAc9fwUJnsBUGo9udISTTOzo8ZtUQEd8nFBowcbRVDK+LF+H27IZRp19TbIC9LvH2Jka8U3ol7l+y6oH2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-client(wpf)\\Infrastracture\\Infrastracture.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\63926\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"

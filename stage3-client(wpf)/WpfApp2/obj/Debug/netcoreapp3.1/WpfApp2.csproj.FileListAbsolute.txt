@@ -420,6 +420,7 @@ C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\WpfA
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\WpfApp2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\WpfApp2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\WpfApp2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\WpfApp2\bin\Debug\netcoreapp3.1\RestSharp.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\WpfApp2\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\WpfApp2\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\WpfApp2\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll

@@ -4,15 +4,8 @@ using System.Text;
 
 namespace Infrastracture.Persistence
 {
-    public enum httpVerb
+    public class Client
     {
-        GET,
-        POST,
-        PUT,
-        DELETE
-    }
-
-    public class HttpVerbs
-    {
+        public string client = "http://localhost:5001/";
     }
 }

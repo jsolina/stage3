@@ -23,7 +23,7 @@ namespace CourseAPI.Controllers
             return Ok(emp);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}")]       
         public IActionResult GetByID(int id)
         {
             var emp = _services.FindById(id);
