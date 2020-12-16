@@ -963,11 +963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\api-stage3\\Services\\Infrastracture.csproj",
+      "projectUniqueName": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-api\\Services\\Infrastracture.csproj",
       "projectName": "Infrastracture",
-      "projectPath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\api-stage3\\Services\\Infrastracture.csproj",
+      "projectPath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-api\\Services\\Infrastracture.csproj",
       "packagesPath": "C:\\Users\\63926\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\api-stage3\\Services\\obj\\",
+      "outputPath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-api\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\63926\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -984,8 +984,8 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\api-stage3\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\api-stage3\\Domain\\Domain.csproj"
+            "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-api\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-api\\Domain\\Domain.csproj"
             }
           }
         }

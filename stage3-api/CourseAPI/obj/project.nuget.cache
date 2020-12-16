@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W7U4BLqVIPsZtnW6Euf/r6uvDHVLsgQCI0Gj+HpQA6PBtNIZo9b77SaOfa/kIEyAR5ml59WdT5xAd00ZD6O/Ug==",
+  "dgSpecHash": "px0VcLl/3A/9j9/jrf+jMadOfKUeHxDxF9rhzATtlQKYmXbOWLLfoAo2acXOmbPUdRM2x5spvHDxCQ7aQEpxnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\api-stage3\\CourseAPI\\CourseAPI.csproj",
+  "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-api\\CourseAPI\\CourseAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.0.0\\microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.0.0\\microsoft.aspnetcore.authentication.core.2.0.0.nupkg.sha512",

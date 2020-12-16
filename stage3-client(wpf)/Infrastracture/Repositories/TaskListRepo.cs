@@ -12,12 +12,12 @@ namespace Infrastracture.Repositories
 
         public void Create(TaskList entity)
         {
-            rClient.postRequest(entity);
+            rClient.PostRequest(entity);
         }
 
         public IEnumerable<TaskList> FindAll()
         {
-            return rClient.getRequest();
+            return rClient.GetRequest();
         }
 
         public IEnumerable<TaskList> FindByFK()
@@ -33,14 +33,12 @@ namespace Infrastracture.Repositories
 
         public void Remove(TaskList entity)
         {
-            throw new NotImplementedException();
-            //_dbcontext.TaskLists.Remove(entity);
-            //_dbcontext.Save();
+            rClient.DeleteRequest(entity);
         }
 
         public void Update(TaskList entity)
         {
-            rClient.putRequest(entity);
+            rClient.PutRequest(entity);
         }
     }
 }

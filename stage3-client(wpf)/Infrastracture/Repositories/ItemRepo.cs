@@ -14,17 +14,17 @@ namespace Infrastracture.Repositories
 
         public void Create(Item entity)
         {
-            rClient.postRequest(entity);
+            rClient.PostRequest(entity);
         }
 
         public IEnumerable<Item> FindAll()
         {
-            return rClient.getRequest();
+            return rClient.GetRequest();
         }
 
         public IEnumerable<Item> FindByFK(int id)
         {
-            return rClient.getRequest().OrderByDescending(i => i.IdItem).Where(d => d.IdTask.Equals(id)).ToList();
+            return rClient.GetRequest().OrderByDescending(i => i.IdItem).Where(d => d.IdTask.Equals(id)).ToList();
         }
 
         public Item FindById(int id)
@@ -34,12 +34,12 @@ namespace Infrastracture.Repositories
 
         public void Remove(Item entity)
         {
-            throw new NotImplementedException();
+            rClient.DeleteRequest(entity);
         }
 
         public void Update(Item entity)
         {
-            rClient.putRequest(entity);
+            rClient.PutRequest(entity);
         }
     }
 }

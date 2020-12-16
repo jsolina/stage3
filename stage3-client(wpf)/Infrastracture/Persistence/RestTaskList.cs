@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace Infrastracture.Persistence
 { 
-    public class RestTaskList :  IRestTaskList
+    public class RestTaskList
     {
         public string endPoint = "http://localhost:5001/api/tasklist";
         public httpVerb httpMethod { get; set; }
@@ -21,37 +21,46 @@ namespace Infrastracture.Persistence
             //endPoint = "";
         }
 
-        public IEnumerable<TaskList> getRequest()
+        public IEnumerable<TaskList> GetRequest()
         {
             string strJSON = string.Empty;
             httpMethod = httpVerb.GET;
-            strJSON = makeRequest();
+            strJSON = MakeRequest();
 
             var rawJson = strJSON + Environment.NewLine;
             var deserializeJson = JsonConvert.DeserializeObject<List<TaskList>>(rawJson);
             return deserializeJson;
         }
 
-        public string postRequest(TaskList entity)
+        public string PostRequest(TaskList entity)
         {
-            serializeObject(entity);
+            SerializeObject(entity);
             httpMethod = httpVerb.POST;
-            return makeRequest();
+            return MakeRequest();
         }
 
-        public string putRequest(TaskList entity)
+        public string PutRequest(TaskList entity)
         {
-            serializeObject(entity);
+            SerializeObject(entity);
             httpMethod = httpVerb.PUT;
-            return makeRequest();
+            return MakeRequest();
         }
 
-        public string serializeObject(TaskList value)
+        public void DeleteRequest(TaskList entity)
         {
-            return postJSON = JsonConvert.SerializeObject(value, Formatting.Indented);
+            /*
+            WebRequest request = WebRequest.Create(endPoint);
+            httpMethod = httpVerb.DELETE;
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            */
         }
 
-        public string makeRequest()
+        public string SerializeObject(TaskList entity)
+        {
+            return postJSON = JsonConvert.SerializeObject(entity, Formatting.Indented);
+        }
+
+        public string MakeRequest()
         {
             string strResponseValue = string.Empty;
 
@@ -59,7 +68,7 @@ namespace Infrastracture.Persistence
 
             request.Method = httpMethod.ToString();
 
-            if ((request.Method == "POST" || request.Method == "PUT") && postJSON != string.Empty)
+            if ((request.Method == "POST" || request.Method == "PUT" || request.Method == "DELETE") && postJSON != string.Empty)
             {
                 request.ContentType = "application/json";
                 using (StreamWriter swJsonPayLoad = new StreamWriter(request.GetRequestStream()))
@@ -102,5 +111,6 @@ namespace Infrastracture.Persistence
 
             return strResponseValue;
         }
+
     }
 }

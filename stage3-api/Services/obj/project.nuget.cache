@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RKhNx/UdlE/bQ2ZvKHlXWkvXik+niWIm1/aZ/OlUrWp1DS1vrwhQWC9piZvuJ0tJ8oE6xpUlXV/mrI9SaUcm5w==",
+  "dgSpecHash": "JGwxqlROouv8sm9PCCNH31VvaUYzo1HNbL9xZCzlQhFl5P1trQ7dFCe08PsnDNd9yWn+1gvoI9qSFYNi72TZ5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\api-stage3\\Services\\Infrastracture.csproj",
+  "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-api\\Services\\Infrastracture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

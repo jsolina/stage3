@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace Infrastracture.Persistence
 {
-    public class RestItem : IRestItem
+    public class RestItem
     {
         public string endPoint = "http://localhost:5001/api/itemlist";
         public httpVerb httpMethod { get; set; }
@@ -21,36 +21,45 @@ namespace Infrastracture.Persistence
             //endPoint = "";
         }
 
-        public IEnumerable<Item> getRequest()
+        public IEnumerable<Item> GetRequest()
         {
             string strJSON = string.Empty;
             httpMethod = httpVerb.GET;
-            strJSON = makeRequest();
+            strJSON = MakeRequest();
 
             var rawJson = strJSON + Environment.NewLine;
             var deserializeJson = JsonConvert.DeserializeObject<List<Item>>(rawJson);
             return deserializeJson;
         }
-        public string postRequest(Item Items)
+        public string PostRequest(Item Items)
         {
-            serializeObject(Items);
+            SerializeObject(Items);
             httpMethod = httpVerb.POST;
-            return makeRequest();
+            return MakeRequest();
         }
 
-        public string putRequest(Item Items)
+        public void DeleteRequest(Item Items)
         {
-            serializeObject(Items);
-            httpMethod = httpVerb.PUT;
-            return makeRequest();
+            /*
+            WebRequest request = WebRequest.Create(endPoint);
+            httpMethod = httpVerb.DELETE;
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            */
         }
 
-        public string serializeObject(Item Items)
+        public string PutRequest(Item Items)
+        {
+            SerializeObject(Items);
+            httpMethod = httpVerb.PUT;
+            return MakeRequest();
+        }
+
+        public string SerializeObject(Item Items)
         {
             return postJSON = JsonConvert.SerializeObject(Items, Formatting.Indented);
         }
 
-        public string makeRequest()
+        public string MakeRequest()
         {
             string strResponseValue = string.Empty;
 
