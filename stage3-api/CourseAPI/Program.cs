@@ -15,6 +15,9 @@ namespace CourseAPI
     {
         public static void Main(string[] args)
         {
+            CreateWebHostBuilder(args).Build().Run();
+
+            /*
             ConfigureLogger();
             Log.Information(messageTemplate: "'SERILOG' Application Started");
             try
@@ -25,8 +28,10 @@ namespace CourseAPI
             {
                 Log.CloseAndFlush();
             }
+            */
         }
 
+        /*
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>().UseSerilog();
@@ -35,5 +40,10 @@ namespace CourseAPI
         {
             Log.Logger = new LoggerConfiguration().WriteTo.Console().WriteTo.File("@log.txt").CreateLogger();
         }
+        */
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+      WebHost.CreateDefaultBuilder(args)
+          .UseStartup<Startup>();
+
     }
 }

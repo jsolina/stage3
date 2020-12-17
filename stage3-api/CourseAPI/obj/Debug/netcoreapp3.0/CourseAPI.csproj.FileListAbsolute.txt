@@ -745,6 +745,7 @@ C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\api-stage3\CourseAPI\ob
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\api-stage3\CourseAPI\obj\Debug\netcoreapp3.0\CourseAPI.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\api-stage3\CourseAPI\obj\Debug\netcoreapp3.0\CourseAPI.pdb
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\api-stage3\CourseAPI\obj\Debug\netcoreapp3.0\CourseAPI.genruntimeconfig.cache
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\CourseAPI.exe
@@ -753,7 +754,7 @@ C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bi
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\CourseAPI.runtimeconfig.dev.json
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\CourseAPI.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\CourseAPI.pdb
-C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\CourseAPI.xml
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
@@ -782,6 +783,7 @@ C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bi
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.OpenApi.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -804,7 +806,6 @@ C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bi
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Serilog.Sinks.Console.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Serilog.Sinks.Debug.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Serilog.Sinks.File.dll
-C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -873,7 +874,6 @@ C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bi
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll

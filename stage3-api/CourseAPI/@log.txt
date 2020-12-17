@@ -8053,3 +8053,68 @@ FROM `TaskList` AS `t`
 2020-12-16 15:57:42.143 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.TaskList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
 2020-12-16 15:57:42.148 +08:00 [INF] Executed action CourseAPI.Controllers.TaskListController.GetAll (CourseAPI) in 10.607000000000001ms
 2020-12-16 15:57:42.149 +08:00 [INF] Request finished in 14.9229ms 200 application/json; charset=utf-8
+2020-12-16 17:32:07.626 +08:00 [INF] 'SERILOG' Application Started
+2020-12-16 17:32:10.014 +08:00 [INF] User profile is available. Using 'C:\Users\63926\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-16 17:32:11.448 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/  
+2020-12-16 17:32:11.640 +08:00 [WRN] Failed to determine the https port for redirect.
+2020-12-16 17:32:11.692 +08:00 [INF] Request finished in 246.87300000000002ms 404 
+2020-12-16 17:32:15.489 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/tasklist  
+2020-12-16 17:32:15.535 +08:00 [INF] Route matched with {action = "GetAll", controller = "TaskList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.TaskListController (CourseAPI).
+2020-12-16 17:32:16.257 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/item  
+2020-12-16 17:32:16.263 +08:00 [INF] Request finished in 5.6798ms 404 
+2020-12-16 17:32:16.796 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-16 17:32:17.489 +08:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`idTask`, `t`.`taskDetails`, `t`.`taskName`
+FROM `TaskList` AS `t`
+2020-12-16 17:32:17.598 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.TaskList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-16 17:32:17.627 +08:00 [INF] Executed action CourseAPI.Controllers.TaskListController.GetAll (CourseAPI) in 2083.6851ms
+2020-12-16 17:32:17.634 +08:00 [INF] Request finished in 2145.6651ms 200 application/json; charset=utf-8
+2020-12-16 17:32:23.420 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/itemlist  
+2020-12-16 17:32:23.430 +08:00 [INF] Route matched with {action = "GetAll", controller = "ItemList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.ItemListController (CourseAPI).
+2020-12-16 17:32:23.474 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-16 17:32:23.492 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `i`.`idItem`, `i`.`idTask`, `i`.`itemDetails`, `i`.`itemName`, `i`.`itemStatus`
+FROM `ItemList` AS `i`
+2020-12-16 17:32:23.503 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.ItemList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-16 17:32:23.509 +08:00 [INF] Executed action CourseAPI.Controllers.ItemListController.GetAll (CourseAPI) in 75.7401ms
+2020-12-16 17:32:23.511 +08:00 [INF] Request finished in 91.4473ms 200 application/json; charset=utf-8
+2020-12-16 17:32:23.699 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/favicon.ico  
+2020-12-16 17:32:23.701 +08:00 [INF] Request finished in 2.2571000000000003ms 404 
+2020-12-16 17:35:32.001 +08:00 [INF] 'SERILOG' Application Started
+2020-12-16 17:35:33.586 +08:00 [INF] User profile is available. Using 'C:\Users\63926\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-16 17:35:34.415 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/  
+2020-12-16 17:35:34.527 +08:00 [WRN] Failed to determine the https port for redirect.
+2020-12-16 17:35:34.566 +08:00 [INF] Request finished in 156.2116ms 404 
+2020-12-16 17:35:51.946 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/ui/index  
+2020-12-16 17:35:51.949 +08:00 [INF] Request finished in 2.9526000000000003ms 404 
+2020-12-17 11:13:25.444 +08:00 [INF] 'SERILOG' Application Started
+2020-12-17 11:13:26.875 +08:00 [INF] User profile is available. Using 'C:\Users\63926\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-17 11:13:27.066 +08:00 [FTL] Application startup exception
+System.MissingMethodException: Method not found: 'Void Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware..ctor(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.AspNetCore.Hosting.IHostingEnvironment, Microsoft.Extensions.Options.IOptions`1<Microsoft.AspNetCore.Builder.StaticFileOptions>, Microsoft.Extensions.Logging.ILoggerFactory)'.
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.CreateStaticFileMiddleware(RequestDelegate next, IHostingEnvironment hostingEnv, ILoggerFactory loggerFactory, SwaggerUIOptions options)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware..ctor(RequestDelegate next, IHostingEnvironment hostingEnv, ILoggerFactory loggerFactory, SwaggerUIOptions options)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+2020-12-17 11:14:09.028 +08:00 [INF] 'SERILOG' Application Started
+2020-12-17 11:14:10.403 +08:00 [INF] User profile is available. Using 'C:\Users\63926\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-17 11:14:11.062 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/  
+2020-12-17 11:14:11.154 +08:00 [WRN] Failed to determine the https port for redirect.
+2020-12-17 11:14:11.191 +08:00 [INF] Request finished in 131.0872ms 404 
+2020-12-17 11:20:18.602 +08:00 [INF] 'SERILOG' Application Started
+2020-12-17 11:20:20.190 +08:00 [INF] User profile is available. Using 'C:\Users\63926\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-17 11:20:20.344 +08:00 [FTL] Application startup exception
+System.MissingMethodException: Method not found: 'Void Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware..ctor(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.AspNetCore.Hosting.IHostingEnvironment, Microsoft.Extensions.Options.IOptions`1<Microsoft.AspNetCore.Builder.StaticFileOptions>, Microsoft.Extensions.Logging.ILoggerFactory)'.
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.CreateStaticFileMiddleware(RequestDelegate next, IHostingEnvironment hostingEnv, ILoggerFactory loggerFactory, SwaggerUIOptions options)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware..ctor(RequestDelegate next, IHostingEnvironment hostingEnv, ILoggerFactory loggerFactory, SwaggerUIOptions options)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()

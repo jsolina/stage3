@@ -46,3 +46,15 @@ C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\api-stage3\Services\obj
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\api-stage3\Services\obj\Debug\netcoreapp3.0\Infrastracture.csproj.CopyComplete
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\api-stage3\Services\obj\Debug\netcoreapp3.0\Infrastracture.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\api-stage3\Services\obj\Debug\netcoreapp3.0\Infrastracture.pdb
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\bin\Debug\netcoreapp3.0\Infrastracture.deps.json
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\bin\Debug\netcoreapp3.0\Infrastracture.dll
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\bin\Debug\netcoreapp3.0\Infrastracture.pdb
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\bin\Debug\netcoreapp3.0\Domain.dll
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\obj\Debug\netcoreapp3.0\Infrastracture.csprojAssemblyReference.cache
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\obj\Debug\netcoreapp3.0\Infrastracture.AssemblyInfoInputs.cache
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\obj\Debug\netcoreapp3.0\Infrastracture.AssemblyInfo.cs
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\obj\Debug\netcoreapp3.0\Infrastracture.csproj.CoreCompileInputs.cache
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\obj\Debug\netcoreapp3.0\Infrastracture.csproj.CopyComplete
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\obj\Debug\netcoreapp3.0\Infrastracture.dll
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\Services\obj\Debug\netcoreapp3.0\Infrastracture.pdb

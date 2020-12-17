@@ -11,6 +11,8 @@ using Microsoft.Extensions.Hosting;
 using CourseAPI.Extension;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Swagger;
+using System.Reflection;
+using System.IO;
 
 namespace CourseAPI
 {
@@ -28,8 +30,27 @@ namespace CourseAPI
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureMysqlContext(Configuration);
-            services.ConfigureRepositoryServices();
+            services.ConfigureRepositoryServices(); 
             services.AddMvc();
+
+
+            services.AddSwaggerGen();
+
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1",
+                    new Microsoft.OpenApi.Models.OpenApiInfo
+                    {
+                        Title = "Swagger Demo API", 
+                        Description = "Demo API for showing Swagger",
+                        Version = "v1"
+                    });
+
+                var fileName = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var filePath = Path.Combine(AppContext.BaseDirectory, fileName);
+                options.IncludeXmlComments(filePath);
+            });
+
 
         }
 
@@ -49,6 +70,17 @@ namespace CourseAPI
             app.UseCors("CorsPolicy");
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            //swagger redirect/endpoint
+            app.UseSwagger();
+
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Demo API");
+                options.RoutePrefix = "";
+            });
+
+
         }
     }
 }
