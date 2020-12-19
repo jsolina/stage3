@@ -24,3 +24,4 @@ C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\Doma
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache

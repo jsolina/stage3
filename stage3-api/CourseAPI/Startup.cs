@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Swagger;
 using System.Reflection;
 using System.IO;
+using Serilog;
 
 namespace CourseAPI
 {
@@ -50,8 +51,6 @@ namespace CourseAPI
                 var filePath = Path.Combine(AppContext.BaseDirectory, fileName);
                 options.IncludeXmlComments(filePath);
             });
-
-
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -69,6 +68,7 @@ namespace CourseAPI
             app.UseRouting();
             app.UseCors("CorsPolicy");
             app.UseHttpsRedirection();
+            app.UseSerilogRequestLogging();
             app.UseMvc();
 
             //swagger redirect/endpoint

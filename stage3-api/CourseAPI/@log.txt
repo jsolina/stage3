@@ -8118,3 +8118,43 @@ System.MissingMethodException: Method not found: 'Void Microsoft.AspNetCore.Stat
    at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
    at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
    at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+2020-12-17 18:16:58.952 +08:00 [INF] 'SERILOG' Application Started
+2020-12-17 18:17:00.558 +08:00 [INF] User profile is available. Using 'C:\Users\63926\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-17 18:17:01.283 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html  
+2020-12-17 18:17:01.380 +08:00 [WRN] Failed to determine the https port for redirect.
+2020-12-17 18:17:01.500 +08:00 [INF] Request finished in 219.86450000000002ms 200 text/html;charset=utf-8
+2020-12-17 18:17:01.789 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json  
+2020-12-17 18:17:01.894 +08:00 [INF] Request finished in 104.31960000000001ms 200 application/json;charset=utf-8
+2020-12-17 18:35:27.960 +08:00 [INF] 'SERILOG' Application Started
+2020-12-17 18:35:29.149 +08:00 [INF] User profile is available. Using 'C:\Users\63926\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-17 18:35:30.390 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html  
+2020-12-17 18:35:38.018 +08:00 [WRN] Failed to determine the https port for redirect.
+2020-12-17 18:35:38.113 +08:00 [INF] Request finished in 7725.0041ms 200 text/html;charset=utf-8
+2020-12-17 18:35:38.302 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json  
+2020-12-17 18:35:38.388 +08:00 [INF] Request finished in 85.59870000000001ms 200 application/json;charset=utf-8
+2020-12-18 08:51:47.579 +08:00 [INF] 'SERILOG' Application Started
+2020-12-18 08:51:50.007 +08:00 [INF] User profile is available. Using 'C:\Users\63926\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-18 08:51:51.100 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html  
+2020-12-18 08:51:51.213 +08:00 [WRN] Failed to determine the https port for redirect.
+2020-12-18 08:51:51.332 +08:00 [INF] Request finished in 233.0662ms 200 text/html;charset=utf-8
+2020-12-18 08:51:51.588 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json  
+2020-12-18 08:51:51.678 +08:00 [INF] Request finished in 90.3664ms 200 application/json;charset=utf-8
+2020-12-18 11:14:26.396 +08:00 [INF] 'SERILOG' Application Started
+2020-12-18 11:14:27.459 +08:00 [INF] User profile is available. Using 'C:\Users\63926\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-18 11:14:28.376 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html  
+2020-12-18 11:14:28.463 +08:00 [WRN] Failed to determine the https port for redirect.
+2020-12-18 11:14:28.568 +08:00 [INF] HTTP GET /index.html responded 200 in 101.2872 ms
+2020-12-18 11:14:28.577 +08:00 [INF] Request finished in 205.3416ms 200 text/html;charset=utf-8
+2020-12-18 11:14:28.870 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json  
+2020-12-18 11:14:28.989 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 115.7672 ms
+2020-12-18 11:14:28.994 +08:00 [INF] Request finished in 123.9778ms 200 application/json;charset=utf-8
+2020-12-18 11:15:59.423 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/itemlist  
+2020-12-18 11:15:59.472 +08:00 [INF] Route matched with {action = "GetAll", controller = "ItemList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CourseAPI.Controllers.ItemListController (CourseAPI).
+2020-12-18 11:16:00.437 +08:00 [INF] Entity Framework Core 3.1.8 initialized 'DatabaseContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-12-18 11:16:01.220 +08:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `i`.`idItem`, `i`.`idTask`, `i`.`itemDetails`, `i`.`itemName`, `i`.`itemStatus`
+FROM `ItemList` AS `i`
+2020-12-18 11:16:01.373 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[Domain.Models.ItemList, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-18 11:16:01.393 +08:00 [INF] Executed action CourseAPI.Controllers.ItemListController.GetAll (CourseAPI) in 1910.0298ms
+2020-12-18 11:16:01.396 +08:00 [INF] HTTP GET /api/itemlist responded 200 in 1960.6772 ms
+2020-12-18 11:16:01.406 +08:00 [INF] Request finished in 1984.1264ms 200 application/json; charset=utf-8

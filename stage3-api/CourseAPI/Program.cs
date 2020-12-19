@@ -15,35 +15,46 @@ namespace CourseAPI
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            var configuration = new ConfigurationBuilder()  
+                .AddJsonFile("appsettings.json").Build();
 
-            /*
-            ConfigureLogger();
-            Log.Information(messageTemplate: "'SERILOG' Application Started");
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(configuration)
+                .CreateLogger();
+
+            /* cedie configuration code
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+                .MinimumLevel.Override("System", LogEventLevel.Warning)
+                .Enrich.FromLogContext()
+                .WriteTo.Console()
+                .WriteTo.File(new RenderedCompactJsonFormatter(), "/serilog/log.json")
+                .WriteTo.Seq("http://localhost:5341")
+                .CreateLogger();
+            */
+
             try
             {
+                Log.Information(messageTemplate: "'SERILOG' Application Started");
                 CreateWebHostBuilder(args).Build().Run();
+            }
+            catch (Exception ex)
+            {
+                Log.Fatal(ex, " The application failed to start correctly"); 
             }
             finally
             {
                 Log.CloseAndFlush();
             }
-            */
         }
 
-        /*
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>().UseSerilog();
+              WebHost.CreateDefaultBuilder(args)
+                  .UseStartup<Startup>().UseSerilog();
 
         public static void ConfigureLogger()
         {
             Log.Logger = new LoggerConfiguration().WriteTo.Console().WriteTo.File("@log.txt").CreateLogger();
         }
-        */
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-      WebHost.CreateDefaultBuilder(args)
-          .UseStartup<Startup>();
-
     }
 }
