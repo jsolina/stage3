@@ -39,6 +39,7 @@ namespace WpfApp2.View
 
                 name.Text = taskListModel.taskName;
                 desc.Text = taskListModel.taskDetails;
+                email.Text = taskListModel.email;
             }
         }
 
@@ -46,6 +47,7 @@ namespace WpfApp2.View
         {
             taskListModel.taskName = name.Text;
             taskListModel.taskDetails = desc.Text;
+            taskListModel.email = email.Text;
 
             if (updateOrAdd == "Add")
             {                

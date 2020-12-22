@@ -22,6 +22,7 @@
                 <DataGridTextColumn Header="Id" Binding="{Binding idTask}"/>
                 <DataGridTextColumn Header="Task Name/Details" Binding="{Binding taskName}"/>
                 <DataGridTextColumn Header="Description" Binding="{Binding taskDetails}"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding email}"/>
 
                 <DataGridTemplateColumn Header="View Items">
                     <DataGridTemplateColumn.CellTemplate>

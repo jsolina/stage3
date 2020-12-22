@@ -25,7 +25,8 @@ namespace Infrastracture.Persistence
         public IEnumerable<Item> GetRequest()
         {
             request = new RestRequest(_request, Method.GET);
-            var queryResult = restClient.Execute<List<Item>>(request).Data;
+            var queryResult = restClient.Execute<List<Item>>(request)
+                .Data;
             return queryResult;
         }
 
