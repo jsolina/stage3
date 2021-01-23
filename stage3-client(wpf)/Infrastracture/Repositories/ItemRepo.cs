@@ -1,45 +1,45 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Linq;
-using Infrastracture.Persistence;
-using Domain.Contracts;
+﻿using Domain.Contracts;
 using Domain.Models;
+using Infrastracture.Persistence;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace Infrastracture.Repositories
 {
     public class ItemRepo : IItem
     {
-        RsharpItem rClient = new RsharpItem();
+        ItemRest _dbcontext = new ItemRest();
 
-        public void Create(Item entity)
+        public void Create(ItemModel entity)
         {
-            rClient.PostRequest(entity);
+            _dbcontext.PostRequest(entity);
         }
 
-        public IEnumerable<Item> FindAll()
+        public IEnumerable<ItemModel> FindAll()
         {
-            return rClient.GetRequest();
+            return _dbcontext.GetRequest();
         }
 
-        public IEnumerable<Item> FindByFK(int id)
+        public IEnumerable<ItemModel> FindByFK(object id)
         {
-            return rClient.GetRequest().OrderByDescending(i => i.IdItem).Where(d => d.IdTask.Equals(id)).ToList();
+            return _dbcontext.GetRequest().OrderByDescending(i => i.IdItem).Where(d => d.IdTask.Equals(id)).ToList();
         }
 
-        public Item FindById(int id)
+        public ItemModel FindById(int id)
         {
-            throw new NotImplementedException();
+            return _dbcontext.GetByIdRequest(id);
         }
 
-        public void Remove(Item entity)
+        public void Remove(int entity)
         {
-            rClient.DeleteRequest(entity);
+            _dbcontext.DeleteRequest(entity);
         }
 
-        public void Update(Item entity)
+        public void Update(ItemModel entity)
         {
-            rClient.PutRequest(entity);
+            _dbcontext.PutRequest(entity);
         }
     }
 }

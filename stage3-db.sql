@@ -29,9 +29,8 @@ CREATE TABLE `itemlist` (
   `itemDetails` varchar(65) DEFAULT NULL,
   `itemStatus` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`idItem`),
-  KEY `idTask` (`idTask`),
-  CONSTRAINT `itemlist_ibfk_1` FOREIGN KEY (`idTask`) REFERENCES `tasklist` (`idTask`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  KEY `idTask` (`idTask`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +39,7 @@ CREATE TABLE `itemlist` (
 
 LOCK TABLES `itemlist` WRITE;
 /*!40000 ALTER TABLE `itemlist` DISABLE KEYS */;
-INSERT INTO `itemlist` VALUES (1,1,'item1','123','Pending'),(2,1,'item2','321','Done'),(3,2,'czczz','czz',NULL),(4,1,'item3..','item3 desc','Pending');
+INSERT INTO `itemlist` VALUES (1,1,'Item 1 Name','Item 1 Details','Pending'),(2,1,'Item 2 Name','Item 2 Description','Done'),(3,2,'Item1 for Task 2','.....','Done'),(4,2,'Item2 for Task 2','...','Pending');
 /*!40000 ALTER TABLE `itemlist` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -57,7 +56,7 @@ CREATE TABLE `tasklist` (
   `taskDetails` varchar(65) DEFAULT NULL,
   `email` varchar(85) DEFAULT NULL,
   PRIMARY KEY (`idTask`)
-) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -66,7 +65,7 @@ CREATE TABLE `tasklist` (
 
 LOCK TABLES `tasklist` WRITE;
 /*!40000 ALTER TABLE `tasklist` DISABLE KEYS */;
-INSERT INTO `tasklist` VALUES (1,'task1','taskDetails1','task1@gmail.com'),(2,'task2','taskDetails2','task2@gmail.com'),(3,'task3','taskDetails3','task3@gmail.com');
+INSERT INTO `tasklist` VALUES (1,'Task 1','Task 1 Description',NULL),(2,'Task 2','Task 2 Description',NULL);
 /*!40000 ALTER TABLE `tasklist` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -79,4 +78,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-12-22  9:53:00
+-- Dump completed on 2021-01-23 15:34:55

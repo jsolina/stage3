@@ -1,4 +1,4 @@
-"# stage3 information" 
+"#stage3 details" 
 
 "stage3-api" this folder is for backend side(api)
 
@@ -6,21 +6,32 @@
 
 "stage3-db.sql" for mysql database.
 
-*database credential*
+*Frontend - WPF (xaml)*
+    - Patterns:
+        1.MVVM
+        2.Repository Pattern
 
-database name: "todo"
+    - Dependencies:
+        1. RestSharp
+        2. MatterialDesign UI/Theme
+        4. Microsoft Entity Framework Core (EFCore)
 
-database tables:
-1. tasklist
-2. itemlist
+*Backend - ASP.NET Core Web API (C#)*
+    - Patterns:
+        1.MVC
+        2.Repository Pattern
+    
+    - Dependencies:
+        1. Serilog
+        2. Masking.Serilog
+        3. Seq
+        4. Microsoft Entity Framework Core (EFCore)
+        5. Swashbuckle(Swagger)
 
-*research, concept and tools used*
+*Database: MYSql Server 8.0*
+        Database name: todo
 
-1. ASP.Net Core
-2. RESTful API
-3. MySQL Database
-4. EFCore
-5. Repository Pattern
-6. MVC
-7. RestSharp
-8. Newtonsoft.json
+        tables:
+            1. itemlist
+            2. tasklist
+

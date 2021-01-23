@@ -33,6 +33,7 @@ namespace Infrastracture.Repositories
 
         public void Remove(ItemList entity)
         {
+            _dbcontext.ItemList.Remove(entity);
             _dbcontext.Save();
         }
 

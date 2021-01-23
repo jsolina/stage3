@@ -1059,3 +1059,5 @@ C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api(orig)\Course
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api(orig)\CourseAPI\obj\Debug\netcoreapp3.0\CourseAPI.genruntimeconfig.cache
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api(orig)\CourseAPI\bin\Debug\netcoreapp3.0\Serilog.Enrichers.Sensitive.dll
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api(orig)\CourseAPI\bin\Debug\netcoreapp3.0\Masking.Serilog.dll
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Masking.Serilog.dll
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\CourseAPI\bin\Debug\netcoreapp3.0\Serilog.Enrichers.Sensitive.dll

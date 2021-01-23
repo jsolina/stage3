@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JGwxqlROouv8sm9PCCNH31VvaUYzo1HNbL9xZCzlQhFl5P1trQ7dFCe08PsnDNd9yWn+1gvoI9qSFYNi72TZ5w==",
+  "dgSpecHash": "FRjtSxPNkMjBBi34Ulg/6LFXlU97VaPsCqjp7pie87rThHYDWHsKkDlhRPl+jUHVMY9o6NxNWp6MlbygxM9ACA==",
   "success": true,
   "projectFilePath": "C:\\Users\\63926\\Documents\\Visual Studio 2019\\clone\\stage3\\stage3-api\\Services\\Infrastracture.csproj",
   "expectedPackageFiles": [
@@ -28,9 +28,7 @@
     "C:\\Users\\63926\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\63926\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\63926\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "C:\\Users\\63926\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
-    "C:\\Users\\63926\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+    "C:\\Users\\63926\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

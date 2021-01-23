@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-client(wpf)\WpfApp2\App.xaml
-42068034795
+440276432
 
-121712804134
-216346868503
-View\CreateUpdateItem.xaml;View\CreateUpdateTask.xaml;View\ViewItems.xaml;View\Window1.xaml;
+13698749818
+217-189504878
+View\AddUpdateItemView.xaml;View\AddUpdateTaskView.xaml;View\ItemsView.xaml;View\TaskListView.xaml;
 
 True
 

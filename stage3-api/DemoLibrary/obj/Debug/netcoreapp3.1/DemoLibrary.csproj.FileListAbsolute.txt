@@ -1,0 +1,9 @@
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\DemoLibrary\bin\Debug\netcoreapp3.1\DemoLibrary.deps.json
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\DemoLibrary\bin\Debug\netcoreapp3.1\DemoLibrary.dll
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\DemoLibrary\bin\Debug\netcoreapp3.1\DemoLibrary.pdb
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.csprojAssemblyReference.cache
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.AssemblyInfoInputs.cache
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.AssemblyInfo.cs
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.csproj.CoreCompileInputs.cache
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.dll
+C:\Users\63926\Documents\Visual Studio 2019\clone\stage3\stage3-api\DemoLibrary\obj\Debug\netcoreapp3.1\DemoLibrary.pdb
