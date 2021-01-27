@@ -5,7 +5,7 @@ using Domain.Models;
 
 namespace Domain.Contracts
 {
-    public interface ITaskList : IBaseRepo<TaskList>
+    public interface ITaskList : IBaseRepo<TaskListModel>
     {
         void aw();
     }

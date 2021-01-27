@@ -5,7 +5,7 @@ using Domain.Models;
 
 namespace Domain.Contracts
 {
-    public interface IItemList : IBaseRepo<ItemList>
+    public interface IItemList : IBaseRepo<ItemListModel>
     {
     }
 }
