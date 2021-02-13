@@ -1,6 +1,5 @@
 ﻿using Domain.Contracts;
 using Domain.Models;
-using Infrastracture.Contracts;
 using Masking.Serilog;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -16,8 +15,9 @@ namespace TodoAppAPI.Controllers
     [ApiController]
     public class ItemListController : ControllerBase
     {
-        private IItemListServices _services;
-        public ItemListController(IItemListServices services) => _services = services;
+        private IItemList _repo;
+        //private IItemListServices _services;
+        public ItemListController(IItemList repo) => _repo = repo;
 
         [HttpGet]
         public IActionResult GetAll()
@@ -36,14 +36,14 @@ namespace TodoAppAPI.Controllers
                  .CreateLogger();
 
             //end serilog config
-            var emp = _services.FindAll();
+            var emp = _repo.FindAll();
             return Ok(emp);
         }
 
         [HttpGet("{id}")]
         public IActionResult GetByID(int id)
         {
-            var emp = _services.FindById(id);
+            var emp = _repo.FindById(id);
             return Ok(emp);
         }
 
@@ -61,7 +61,7 @@ namespace TodoAppAPI.Controllers
                     itemStatus = ItemLists.itemStatus
                 });
 
-                _services.Create(ItemLists);
+                _repo.Create(ItemLists);
                 return StatusCode(200, "Successfully Created!");
             }
             catch (Exception ex)
@@ -84,7 +84,7 @@ namespace TodoAppAPI.Controllers
                     itemStatus = ItemLists.itemStatus
                 });
 
-                _services.Update(ItemLists);
+                _repo.Update(ItemLists);
                 return StatusCode(200, "Successfully Updated!");
             }
             catch (Exception ex)
@@ -98,8 +98,8 @@ namespace TodoAppAPI.Controllers
         {
             try
             {
-                var emp = _services.FindById(id);
-                _services.Remove(emp);
+                var emp = _repo.FindById(id);
+                _repo.Remove(emp);
                 return StatusCode(200, "Successfully Updated!");
             }
             catch (Exception ex)

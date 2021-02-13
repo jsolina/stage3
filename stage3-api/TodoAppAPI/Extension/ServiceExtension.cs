@@ -1,8 +1,6 @@
 ﻿using Domain.Contracts;
-using Infrastracture.Contracts;
 using Infrastracture.Persistence;
 using Infrastracture.Repositories;
-using Infrastracture.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -44,11 +42,7 @@ namespace TodoAppAPI.Extension
         }
         public static void ConfigureRepositoryServices(this IServiceCollection services)
         {
-            services.AddScoped<ITaskListServices, TaskListServices>();
             services.AddScoped<ITaskList, TaskListRepo>();
-
-
-            services.AddScoped<IItemListServices, ItemListServices>();
             services.AddScoped<IItemList, ItemListRepo>();
 
             services.AddScoped<IDatabaseContext, DatabaseContext>();

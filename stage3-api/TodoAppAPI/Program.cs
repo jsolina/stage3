@@ -40,11 +40,5 @@ namespace TodoAppAPI
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
               WebHost.CreateDefaultBuilder(args)
                   .UseStartup<Startup>().UseSerilog();
-
-
-        public static void ConfigureLogger()
-        {
-            Log.Logger = new LoggerConfiguration().WriteTo.Console().WriteTo.File("@log.txt").CreateLogger();
-        }
     }
 }
